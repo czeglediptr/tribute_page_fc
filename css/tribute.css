@@ -1,5 +1,6 @@
 * {
     background-color: lightcyan;
+    font-family: 'Merriweather', serif;
 }
 h3 {
     font-size: 1.5em;
@@ -27,18 +28,29 @@ figure {
 }
 
 #filmography {
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 #title {
     text-align: center;
 }
 
-#img{
+#img-caption {
+    font-size: small;
+}
+
+#image{
+    display: block;
     width: 100%;
+    margin: auto;
+    max-width: 100%;
 }
 
 #tribute-info {
-    font-size: 1.2em;
+    font-size: 1.0em;
     width: 100%;
+}
+
+#tribute-info p {
+    text-align: justify;
 }
